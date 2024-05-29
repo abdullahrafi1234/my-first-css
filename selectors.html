@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selectors</title>
+    <style>
+        *{
+            /* margin: 0; */
+        }
+        p{
+            /* color: red; */
+        }
+        #fifth,li{
+            font-size: 26px;
+        }
+       .holud,.yellow{
+            background-color: yellow;
+        }
+        .bold{
+            font-weight: 800;
+        }
+        input[type="text"]{
+            color: brown;
+            font-size: large;
+        }
+        .span{
+           color: aquamarine;
+        }
+        .blog{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h2>Explore Mixed Selectors</h2>
+    <p>My first <span class="span">line CSS</span></p>
+    <p class="yellow">My second line CSS</p>
+    <p class="yellow bold">My third line CSS</p>
+    <p>My fourth line CSS</p>
+    <p class="holud" id="fifth">My fifth line CSS</p>
+    <p class="bold">My sixth line CSS</p>
+
+    <ol>
+        <li>Element Selector</li>
+        <li>ID selector</li>
+        <li class="bold yellow">Class selector</li>
+        <li>universal selector</li>
+    </ol>
+
+    <form action="">
+            <input type="text" placeholder="Your Name"> <br> <br>
+            <input type="password" placeholder="Your Password">
+    </form>
+
+    <div class="blog">
+        <h3>My blog</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum molestias laudantium, quae sint voluptatem ipsam, ratione modi praesentium quaerat maiores cupiditate quia dignissimos, ducimus consectetur adipisci commodi? A, dolores aspernatur?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda consequatur illo culpa voluptatum amet doloribus dolore odio tempora maxime officiis voluptate, dicta saepe ea aliquid veniam recusandae est optio velit.</p>
+    </div>
+    <div class="blog">
+        <h3>My blog</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aspernatur voluptates fugiat quia ratione animi vero atque modi amet totam, possimus, quisquam qui culpa ducimus voluptatum minus! Laboriosam, doloribus vitae!</p>
+    </div>
+
+</body>
+</html>
